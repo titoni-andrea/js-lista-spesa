@@ -14,9 +14,18 @@ let lista = [
 //     console.log(lista[i]);
     
 // }
+
+const contLista = document.querySelector(".lista");
+
+
+
+
 i = 0;
 
 while (i < lista.length) {
-    console.log(lista[i]);
+    // console.log(lista[i]);
+    const elementsLista = document.createElement("li");
+    elementsLista.innerHTML = lista[i]
+    contLista.append(elementsLista);
     i++;
 }
