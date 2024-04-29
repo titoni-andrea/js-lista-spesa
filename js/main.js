@@ -9,3 +9,4 @@ let lista = [
     "v3rde",
     "macchina",
 ]
+
